@@ -68,8 +68,11 @@ body {
 .card {
   background: rgba(255,255,255,0.06);
   border: 1px solid rgba(255,255,255,0.12);
-  border-radius: 16px;
-  padding: 14px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+  
 }
 
 .card h3 {
@@ -102,4 +105,20 @@ body {
   margin-top: 20px;
   opacity: 0.7;
   text-align: center;
+}
+#projects {
+  margin-top: 40px;
+}
+
+.projects {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+}
+
+.project-card a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
 }
